@@ -1,0 +1,23 @@
+<?php
+return [
+    'debug'    => true,
+    'database' =>
+        [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'bolt_discuss',
+            'username'  => 'xxx',
+            'password'  => 'xxx',
+            'charset'   => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+        ],
+    'url'      => 'https://discuss.bolt.cm',
+    'paths'    =>
+        [
+            'api'   => 'api',
+            'admin' => 'admin',
+        ],
+];
+
